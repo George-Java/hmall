@@ -5,16 +5,19 @@ spring:
     name: user-service
   profiles:
     active: dev
-
+  datasource:
+    url: jdbc:mysql://${hm.db.host:localhost}:${hm.db.port:3306}/${hm.db.dbname}?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: ${hm.db.um:root}
+    password: ${hm.db.pw:123456}
+    driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     compatibility-verifier:
       enabled: false
     nacos:
       discovery:
         server-addr: 192.168.41.128:8848 #淇敼涓篘acos瀹為檯瀹夎鍦板潃
-      config:
-        server-addr: 192.168.41.128:8848
-        file-extension: yaml
+        username: nacos
+        password: Zhc20050105@
     sentinel:
       transport:
         dashboard: localhost:8090
@@ -22,10 +25,7 @@ spring:
     openfeign:
       okhttp:
         enabled: true
-  config:
-    import:
-      - optional:nacos:jdbc.yaml
-      - optional:nacos:log.yaml
+
 
 hm:
   jwt:
@@ -34,3 +34,20 @@ hm:
     password: hmall123
     tokenTTL: 30m
 
+
+mybatis-plus:
+  configuration:
+    default-enum-type-handler: com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler
+  global-config:
+    db-config:
+      update-strategy: not_null
+      id-type: auto
+
+
+logging:
+  level:
+    com.george.item: debug
+  pattern:
+    dateformat: HH:mm:ss:SSS
+  file:
+    path: logs/${spring.application.name}

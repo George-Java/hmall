@@ -8,6 +8,8 @@ spring:
     nacos:
       discovery:
         server-addr: 192.168.41.128:8848
+        username: nacos
+        password: Zhc20050105@
     sentinel:
       transport:
         dashboard: localhost:8090

@@ -1,8 +1,9 @@
 ﻿hm:
   db:
     host: 192.168.41.128
-    port: 3306
+    port: 3307
     um: root
     pw: 123456
     dbname: hm-cart
-
+  cart:
+    max-items: 10
