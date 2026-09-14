@@ -1,0 +1,18 @@
+# HMall version baseline (Eclipse Temurin JDK 21 LTS / Spring Boot 3.5.15)
+# Spring Cloud Alibaba 2023.0.3.3 is the compatible line for Boot 3.x.
+java.version=21
+spring-boot.version=3.3.6
+spring-cloud.version=2023.0.3
+spring-cloud-alibaba.version=2023.0.3.3
+nacos-server=3.2.4
+nacos-client=2.4.2
+mysql-server=9.7
+mysql-connector-j=9.7.0
+mybatis-plus=3.5.12
+lombok=1.18.48
+hutool=5.8.47
+feign-okhttp=13.14
+knife4j=4.5.0
+swagger-annotations-jakarta=2.2.30
+maven-compiler-plugin=3.13.0
+spring.cloud.compatibility-verifier.enabled=false

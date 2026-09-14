@@ -1,0 +1,14 @@
+﻿server:
+  port: 9008
+spring:
+  application:
+    name: user-api
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.41.128:8848
+    openfeign:
+      okhttp:
+        enabled: true
+  profiles:
+    active: local

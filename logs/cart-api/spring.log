@@ -1,0 +1,138 @@
+00:01:41:488  WARN 18404 --- [cart-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:01:41:488  WARN 18404 --- [cart-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:01:41:488  WARN 18404 --- [cart-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+00:01:41:493  INFO 18404 --- [cart-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:01:41:493  WARN 18404 --- [cart-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:01:41:494  WARN 18404 --- [cart-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+00:01:41:496  WARN 18404 --- [cart-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:01:41:502  INFO 18404 --- [cart-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:01:46:671  INFO 24004 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+00:01:46:679  INFO 24004 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+00:01:46:680  INFO 24004 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+00:01:46:687  INFO 24004 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+00:01:46:892  INFO 24004 --- [cart-api] [main] com.george.cartapi.CartApiApplication    : Starting CartApiApplication using Java 21.0.11 with PID 24004 (E:\download\SpringCloud\day02-Docker\Source\hmall\hm-cart\cart-api\target\classes started by lindu in E:\download\SpringCloud\day02-Docker\Source\hmall)
+00:01:46:893  INFO 24004 --- [cart-api] [main] com.george.cartapi.CartApiApplication    : The following 1 profile is active: "local"
+00:01:47:490  INFO 24004 --- [cart-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+00:01:47:493  INFO 24004 --- [cart-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+00:01:47:515  INFO 24004 --- [cart-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+00:01:47:698  INFO 24004 --- [cart-api] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a7547380-1d60-3183-a59b-da60b66f9043
+00:01:48:028  INFO 24004 --- [cart-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9007 (http)
+00:01:48:049  INFO 24004 --- [cart-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+00:01:48:050  INFO 24004 --- [cart-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+00:01:48:167  INFO 24004 --- [cart-api] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+00:01:48:168  INFO 24004 --- [cart-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1232 ms
+00:01:49:704  INFO 24004 --- [cart-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9007 (http) with context path '/'
+00:01:49:751  INFO 24004 --- [cart-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:01:49:752  INFO 24004 --- [cart-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:01:50:469  INFO 24004 --- [cart-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to get current node abilities...
+00:01:50:471  INFO 24004 --- [cart-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+00:01:50:472  INFO 24004 --- [cart-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Initialize current abilities finish...
+00:01:50:472  INFO 24004 --- [cart-api] [main] c.a.n.c.a.d.NacosAbilityManagerHolder    : [AbilityControlManager] Successfully initialize AbilityControlManager
+00:01:50:520  INFO 24004 --- [cart-api] [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-api 192.168.108.1:9007 register finished
+00:01:50:533  INFO 24004 --- [cart-api] [main] com.george.cartapi.CartApiApplication    : Started CartApiApplication in 4.396 seconds (process running for 5.32)
+00:08:16:850  WARN 24004 --- [cart-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:08:16:850  WARN 24004 --- [cart-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+00:08:16:850  WARN 24004 --- [cart-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:08:16:851  WARN 24004 --- [cart-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:08:16:851  WARN 24004 --- [cart-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+00:08:16:851  WARN 24004 --- [cart-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:08:16:852  INFO 24004 --- [cart-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:08:16:863  INFO 24004 --- [cart-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:08:20:027  INFO 23036 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+00:08:20:034  INFO 23036 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+00:08:20:034  INFO 23036 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+00:08:20:040  INFO 23036 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+00:08:20:275  INFO 23036 --- [cart-api] [main] com.george.cartapi.CartApiApplication    : Starting CartApiApplication using Java 21.0.11 with PID 23036 (E:\download\SpringCloud\day02-Docker\Source\hmall\hm-cart\cart-api\target\classes started by lindu in E:\download\SpringCloud\day02-Docker\Source\hmall)
+00:08:20:276  INFO 23036 --- [cart-api] [main] com.george.cartapi.CartApiApplication    : The following 1 profile is active: "local"
+00:08:20:910  INFO 23036 --- [cart-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+00:08:20:913  INFO 23036 --- [cart-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+00:08:20:936  INFO 23036 --- [cart-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+00:08:21:113  INFO 23036 --- [cart-api] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a7547380-1d60-3183-a59b-da60b66f9043
+00:08:21:372  INFO 23036 --- [cart-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9007 (http)
+00:08:21:388  INFO 23036 --- [cart-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+00:08:21:388  INFO 23036 --- [cart-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+00:08:21:463  INFO 23036 --- [cart-api] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+00:08:21:463  INFO 23036 --- [cart-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1131 ms
+00:08:22:365  INFO 23036 --- [cart-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9007 (http) with context path '/'
+00:08:22:416  INFO 23036 --- [cart-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:08:22:417  INFO 23036 --- [cart-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:08:23:011  INFO 23036 --- [cart-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to get current node abilities...
+00:08:23:012  INFO 23036 --- [cart-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+00:08:23:013  INFO 23036 --- [cart-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Initialize current abilities finish...
+00:08:23:013  INFO 23036 --- [cart-api] [main] c.a.n.c.a.d.NacosAbilityManagerHolder    : [AbilityControlManager] Successfully initialize AbilityControlManager
+00:08:23:046  INFO 23036 --- [cart-api] [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-api 192.168.108.1:9007 register finished
+00:08:23:056  INFO 23036 --- [cart-api] [main] com.george.cartapi.CartApiApplication    : Started CartApiApplication in 3.565 seconds (process running for 4.287)
+00:11:50:160  WARN 23036 --- [cart-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+00:11:50:160  WARN 23036 --- [cart-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:11:50:160  WARN 23036 --- [cart-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:11:50:160  WARN 23036 --- [cart-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:11:50:160  WARN 23036 --- [cart-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+00:11:50:160  WARN 23036 --- [cart-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:11:50:161  INFO 23036 --- [cart-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:11:50:174  INFO 23036 --- [cart-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:11:53:435  INFO 17184 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+00:11:53:444  INFO 17184 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+00:11:53:445  INFO 17184 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+00:11:53:450  INFO 17184 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+00:11:53:678  INFO 17184 --- [cart-api] [main] com.george.cartapi.CartApiApplication    : Starting CartApiApplication using Java 21.0.11 with PID 17184 (E:\download\SpringCloud\day02-Docker\Source\hmall\hm-cart\cart-api\target\classes started by lindu in E:\download\SpringCloud\day02-Docker\Source\hmall)
+00:11:53:679  INFO 17184 --- [cart-api] [main] com.george.cartapi.CartApiApplication    : The following 1 profile is active: "local"
+00:11:54:287  INFO 17184 --- [cart-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+00:11:54:290  INFO 17184 --- [cart-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+00:11:54:319  INFO 17184 --- [cart-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+00:11:54:511  INFO 17184 --- [cart-api] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a7547380-1d60-3183-a59b-da60b66f9043
+00:11:54:762  INFO 17184 --- [cart-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9007 (http)
+00:11:54:776  INFO 17184 --- [cart-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+00:11:54:777  INFO 17184 --- [cart-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+00:11:54:843  INFO 17184 --- [cart-api] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+00:11:54:843  INFO 17184 --- [cart-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1116 ms
+00:11:55:756  INFO 17184 --- [cart-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9007 (http) with context path '/'
+00:11:55:801  INFO 17184 --- [cart-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:11:55:801  INFO 17184 --- [cart-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:11:56:377  INFO 17184 --- [cart-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to get current node abilities...
+00:11:56:379  INFO 17184 --- [cart-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+00:11:56:379  INFO 17184 --- [cart-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Initialize current abilities finish...
+00:11:56:380  INFO 17184 --- [cart-api] [main] c.a.n.c.a.d.NacosAbilityManagerHolder    : [AbilityControlManager] Successfully initialize AbilityControlManager
+00:11:56:414  INFO 17184 --- [cart-api] [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-api 192.168.108.1:9007 register finished
+00:11:56:424  INFO 17184 --- [cart-api] [main] com.george.cartapi.CartApiApplication    : Started CartApiApplication in 3.48 seconds (process running for 4.204)
+00:34:57:775  WARN 17184 --- [cart-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:34:57:775  WARN 17184 --- [cart-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:34:57:775  WARN 17184 --- [cart-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+00:34:57:776  WARN 17184 --- [cart-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:34:57:776  WARN 17184 --- [cart-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+00:34:57:776  WARN 17184 --- [cart-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:34:57:777  INFO 17184 --- [cart-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:34:57:782  INFO 17184 --- [cart-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:35:00:819  INFO 20112 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+00:35:00:829  INFO 20112 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+00:35:00:830  INFO 20112 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+00:35:00:838  INFO 20112 --- [cart-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+00:35:01:095  INFO 20112 --- [cart-api] [main] com.george.cartapi.CartApiApplication    : Starting CartApiApplication using Java 21.0.11 with PID 20112 (E:\download\SpringCloud\day02-Docker\Source\hmall\hm-cart\cart-api\target\classes started by lindu in E:\download\SpringCloud\day02-Docker\Source\hmall)
+00:35:01:096  INFO 20112 --- [cart-api] [main] com.george.cartapi.CartApiApplication    : The following 1 profile is active: "local"
+00:35:01:702  INFO 20112 --- [cart-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+00:35:01:705  INFO 20112 --- [cart-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+00:35:01:727  INFO 20112 --- [cart-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+00:35:01:920  INFO 20112 --- [cart-api] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a7547380-1d60-3183-a59b-da60b66f9043
+00:35:02:171  INFO 20112 --- [cart-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9007 (http)
+00:35:02:185  INFO 20112 --- [cart-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+00:35:02:185  INFO 20112 --- [cart-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+00:35:02:261  INFO 20112 --- [cart-api] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+00:35:02:262  INFO 20112 --- [cart-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1113 ms
+00:35:03:217  INFO 20112 --- [cart-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9007 (http) with context path '/'
+00:35:03:267  INFO 20112 --- [cart-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:35:03:268  INFO 20112 --- [cart-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:35:03:851  INFO 20112 --- [cart-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to get current node abilities...
+00:35:03:853  INFO 20112 --- [cart-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+00:35:03:853  INFO 20112 --- [cart-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Initialize current abilities finish...
+00:35:03:853  INFO 20112 --- [cart-api] [main] c.a.n.c.a.d.NacosAbilityManagerHolder    : [AbilityControlManager] Successfully initialize AbilityControlManager
+00:35:03:889  INFO 20112 --- [cart-api] [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP cart-api 192.168.108.1:9007 register finished
+00:35:03:899  INFO 20112 --- [cart-api] [main] com.george.cartapi.CartApiApplication    : Started CartApiApplication in 3.701 seconds (process running for 4.597)
+00:40:25:709  WARN 20112 --- [cart-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:40:25:709  WARN 20112 --- [cart-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:40:25:709  WARN 20112 --- [cart-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:40:25:708  WARN 20112 --- [cart-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+00:40:25:710  WARN 20112 --- [cart-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:40:25:711  WARN 20112 --- [cart-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+00:40:25:712  INFO 20112 --- [cart-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:40:25:728  INFO 20112 --- [cart-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:40:35:750  INFO 20112 --- [cart-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+00:40:35:755  INFO 20112 --- [cart-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

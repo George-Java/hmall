@@ -1,0 +1,170 @@
+00:02:29:629  WARN 21164 --- [item-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:02:29:629  WARN 21164 --- [item-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+00:02:29:629  WARN 21164 --- [item-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:02:29:641  WARN 21164 --- [item-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:02:29:642  WARN 21164 --- [item-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+00:02:29:647  WARN 21164 --- [item-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:02:29:652  INFO 21164 --- [item-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:02:29:667  INFO 21164 --- [item-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:02:33:962  INFO 4232 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+00:02:33:973  INFO 4232 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+00:02:33:974  INFO 4232 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+00:02:33:982  INFO 4232 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+00:02:34:228  INFO 4232 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : Starting ItemApiApplication using Java 21.0.11 with PID 4232 (E:\download\SpringCloud\day02-Docker\Source\hmall\hm-item\item-api\target\classes started by lindu in E:\download\SpringCloud\day02-Docker\Source\hmall)
+00:02:34:230  INFO 4232 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : The following 1 profile is active: "local"
+00:02:34:837  INFO 4232 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+00:02:34:839  INFO 4232 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+00:02:34:862  INFO 4232 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+00:02:35:051  INFO 4232 --- [item-api] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7e7f8b52-4586-3528-91f1-deaaf276e05b
+00:02:35:302  INFO 4232 --- [item-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9002 (http)
+00:02:35:317  INFO 4232 --- [item-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+00:02:35:318  INFO 4232 --- [item-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+00:02:35:379  INFO 4232 --- [item-api] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+00:02:35:380  INFO 4232 --- [item-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1110 ms
+00:02:36:292  INFO 4232 --- [item-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9002 (http) with context path '/'
+00:02:36:333  INFO 4232 --- [item-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:02:36:333  INFO 4232 --- [item-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:02:36:998  INFO 4232 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to get current node abilities...
+00:02:37:000  INFO 4232 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+00:02:37:000  INFO 4232 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Initialize current abilities finish...
+00:02:37:001  INFO 4232 --- [item-api] [main] c.a.n.c.a.d.NacosAbilityManagerHolder    : [AbilityControlManager] Successfully initialize AbilityControlManager
+00:02:37:038  INFO 4232 --- [item-api] [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-api 192.168.108.1:9002 register finished
+00:02:37:049  INFO 4232 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : Started ItemApiApplication in 3.729 seconds (process running for 4.573)
+00:08:25:626  WARN 4232 --- [item-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+00:08:25:626  WARN 4232 --- [item-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:08:25:626  WARN 4232 --- [item-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:08:25:627  WARN 4232 --- [item-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:08:25:627  WARN 4232 --- [item-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+00:08:25:627  WARN 4232 --- [item-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:08:25:628  INFO 4232 --- [item-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:08:25:634  INFO 4232 --- [item-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:08:29:629  INFO 20876 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+00:08:29:637  INFO 20876 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+00:08:29:638  INFO 20876 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+00:08:29:645  INFO 20876 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+00:08:29:859  INFO 20876 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : Starting ItemApiApplication using Java 21.0.11 with PID 20876 (E:\download\SpringCloud\day02-Docker\Source\hmall\hm-item\item-api\target\classes started by lindu in E:\download\SpringCloud\day02-Docker\Source\hmall)
+00:08:29:860  INFO 20876 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : The following 1 profile is active: "local"
+00:08:30:466  INFO 20876 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+00:08:30:468  INFO 20876 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+00:08:30:490  INFO 20876 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+00:08:30:669  INFO 20876 --- [item-api] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7e7f8b52-4586-3528-91f1-deaaf276e05b
+00:08:30:913  INFO 20876 --- [item-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9002 (http)
+00:08:30:928  INFO 20876 --- [item-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+00:08:30:928  INFO 20876 --- [item-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+00:08:30:993  INFO 20876 --- [item-api] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+00:08:30:993  INFO 20876 --- [item-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1081 ms
+00:08:31:918  INFO 20876 --- [item-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9002 (http) with context path '/'
+00:08:31:961  INFO 20876 --- [item-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:08:31:961  INFO 20876 --- [item-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:08:32:531  INFO 20876 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to get current node abilities...
+00:08:32:532  INFO 20876 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+00:08:32:533  INFO 20876 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Initialize current abilities finish...
+00:08:32:533  INFO 20876 --- [item-api] [main] c.a.n.c.a.d.NacosAbilityManagerHolder    : [AbilityControlManager] Successfully initialize AbilityControlManager
+00:08:32:566  INFO 20876 --- [item-api] [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-api 192.168.108.1:9002 register finished
+00:08:32:576  INFO 20876 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : Started ItemApiApplication in 3.477 seconds (process running for 4.312)
+00:12:22:734  WARN 20876 --- [item-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:12:22:734  WARN 20876 --- [item-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+00:12:22:734  WARN 20876 --- [item-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:12:22:734  WARN 20876 --- [item-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:12:22:734  WARN 20876 --- [item-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+00:12:22:734  WARN 20876 --- [item-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:12:22:735  INFO 20876 --- [item-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:12:22:739  INFO 20876 --- [item-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:12:25:909  INFO 13048 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+00:12:25:918  INFO 13048 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+00:12:25:919  INFO 13048 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+00:12:25:926  INFO 13048 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+00:12:26:150  INFO 13048 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : Starting ItemApiApplication using Java 21.0.11 with PID 13048 (E:\download\SpringCloud\day02-Docker\Source\hmall\hm-item\item-api\target\classes started by lindu in E:\download\SpringCloud\day02-Docker\Source\hmall)
+00:12:26:152  INFO 13048 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : The following 1 profile is active: "local"
+00:12:26:757  INFO 13048 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+00:12:26:759  INFO 13048 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+00:12:26:783  INFO 13048 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+00:12:26:973  INFO 13048 --- [item-api] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7e7f8b52-4586-3528-91f1-deaaf276e05b
+00:12:27:210  INFO 13048 --- [item-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9002 (http)
+00:12:27:224  INFO 13048 --- [item-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+00:12:27:224  INFO 13048 --- [item-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+00:12:27:298  INFO 13048 --- [item-api] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+00:12:27:299  INFO 13048 --- [item-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1097 ms
+00:12:28:222  INFO 13048 --- [item-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9002 (http) with context path '/'
+00:12:28:263  INFO 13048 --- [item-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:12:28:263  INFO 13048 --- [item-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:12:28:822  INFO 13048 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to get current node abilities...
+00:12:28:823  INFO 13048 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+00:12:28:824  INFO 13048 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Initialize current abilities finish...
+00:12:28:824  INFO 13048 --- [item-api] [main] c.a.n.c.a.d.NacosAbilityManagerHolder    : [AbilityControlManager] Successfully initialize AbilityControlManager
+00:12:28:856  INFO 13048 --- [item-api] [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-api 192.168.108.1:9002 register finished
+00:12:28:866  INFO 13048 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : Started ItemApiApplication in 3.577 seconds (process running for 4.362)
+00:17:20:591  WARN 13048 --- [item-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:17:20:591  WARN 13048 --- [item-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+00:17:20:591  WARN 13048 --- [item-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:17:20:591  WARN 13048 --- [item-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:17:20:592  WARN 13048 --- [item-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+00:17:20:592  WARN 13048 --- [item-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:17:20:592  INFO 13048 --- [item-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:17:20:597  INFO 13048 --- [item-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:17:24:106  INFO 23724 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+00:17:24:114  INFO 23724 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+00:17:24:115  INFO 23724 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+00:17:24:121  INFO 23724 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+00:17:24:342  INFO 23724 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : Starting ItemApiApplication using Java 21.0.11 with PID 23724 (E:\download\SpringCloud\day02-Docker\Source\hmall\hm-item\item-api\target\classes started by lindu in E:\download\SpringCloud\day02-Docker\Source\hmall)
+00:17:24:343  INFO 23724 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : The following 1 profile is active: "local"
+00:17:24:967  INFO 23724 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+00:17:24:969  INFO 23724 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+00:17:24:992  INFO 23724 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+00:17:25:180  INFO 23724 --- [item-api] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7e7f8b52-4586-3528-91f1-deaaf276e05b
+00:17:25:450  INFO 23724 --- [item-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9002 (http)
+00:17:25:464  INFO 23724 --- [item-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+00:17:25:464  INFO 23724 --- [item-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+00:17:25:539  INFO 23724 --- [item-api] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+00:17:25:540  INFO 23724 --- [item-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1144 ms
+00:17:26:489  INFO 23724 --- [item-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9002 (http) with context path '/'
+00:17:26:533  INFO 23724 --- [item-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:17:26:533  INFO 23724 --- [item-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:17:27:116  INFO 23724 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to get current node abilities...
+00:17:27:118  INFO 23724 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+00:17:27:119  INFO 23724 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Initialize current abilities finish...
+00:17:27:119  INFO 23724 --- [item-api] [main] c.a.n.c.a.d.NacosAbilityManagerHolder    : [AbilityControlManager] Successfully initialize AbilityControlManager
+00:17:27:154  INFO 23724 --- [item-api] [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-api 192.168.108.1:9002 register finished
+00:17:27:164  INFO 23724 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : Started ItemApiApplication in 3.58 seconds (process running for 4.339)
+00:35:38:323  WARN 23724 --- [item-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+00:35:38:323  WARN 23724 --- [item-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:35:38:323  WARN 23724 --- [item-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:35:38:323  WARN 23724 --- [item-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:35:38:323  WARN 23724 --- [item-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+00:35:38:324  WARN 23724 --- [item-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:35:38:325  INFO 23724 --- [item-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:35:38:330  INFO 23724 --- [item-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:35:41:338  INFO 23324 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback12.LogbackNacosLoggingAdapterBuilder
+00:35:41:353  INFO 23324 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapterBuilder
+00:35:41:354  INFO 23324 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter: com.alibaba.nacos.logger.adapter.logback14.LogbackNacosLoggingAdapter match ch.qos.logback.classic.Logger success.
+00:35:41:360  INFO 23324 --- [item-api] [main] c.a.nacos.client.logging.NacosLogging    : Nacos Logging Adapter Builder: com.alibaba.nacos.logger.adapter.log4j2.Log4j2NacosLoggingAdapterBuilder
+00:35:41:616  INFO 23324 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : Starting ItemApiApplication using Java 21.0.11 with PID 23324 (E:\download\SpringCloud\day02-Docker\Source\hmall\hm-item\item-api\target\classes started by lindu in E:\download\SpringCloud\day02-Docker\Source\hmall)
+00:35:41:618  INFO 23324 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : The following 1 profile is active: "local"
+00:35:42:238  INFO 23324 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+00:35:42:240  INFO 23324 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+00:35:42:266  INFO 23324 --- [item-api] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+00:35:42:464  INFO 23324 --- [item-api] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=7e7f8b52-4586-3528-91f1-deaaf276e05b
+00:35:42:755  INFO 23324 --- [item-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9002 (http)
+00:35:42:775  INFO 23324 --- [item-api] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+00:35:42:775  INFO 23324 --- [item-api] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.55]
+00:35:42:854  INFO 23324 --- [item-api] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+00:35:42:855  INFO 23324 --- [item-api] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1188 ms
+00:35:43:791  INFO 23324 --- [item-api] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9002 (http) with context path '/'
+00:35:43:838  INFO 23324 --- [item-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:35:43:839  INFO 23324 --- [item-api] [main] c.a.n.p.a.s.c.ClientAuthPluginManager    : [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:35:44:426  INFO 23324 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to get current node abilities...
+00:35:44:427  INFO 23324 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Ready to initialize current node abilities, support modes: [SDK_CLIENT]
+00:35:44:428  INFO 23324 --- [item-api] [main] c.a.n.c.a.AbstractAbilityControlManager  : Initialize current abilities finish...
+00:35:44:428  INFO 23324 --- [item-api] [main] c.a.n.c.a.d.NacosAbilityManagerHolder    : [AbilityControlManager] Successfully initialize AbilityControlManager
+00:35:44:462  INFO 23324 --- [item-api] [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP item-api 192.168.108.1:9002 register finished
+00:35:44:473  INFO 23324 --- [item-api] [main] com.george.itemapi.ItemApiApplication    : Started ItemApiApplication in 3.659 seconds (process running for 4.532)
+00:40:25:701  WARN 23324 --- [item-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Start destroying ThreadPool
+00:40:25:701  WARN 23324 --- [item-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+00:40:25:701  WARN 23324 --- [item-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+00:40:25:701  WARN 23324 --- [item-api] [Thread-16] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+00:40:25:702  WARN 23324 --- [item-api] [Thread-2] c.a.n.common.executor.ThreadPoolManager  : [ThreadPoolManager] Destruction of the end
+00:40:25:702  WARN 23324 --- [item-api] [Thread-18] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+00:40:25:707  INFO 23324 --- [item-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+00:40:25:721  INFO 23324 --- [item-api] [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+00:40:35:734  INFO 23324 --- [item-api] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+00:40:35:739  INFO 23324 --- [item-api] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

@@ -1,0 +1,36 @@
+﻿server:
+  port: 9005
+spring:
+  application:
+    name: user-service
+  profiles:
+    active: dev
+
+  cloud:
+    compatibility-verifier:
+      enabled: false
+    nacos:
+      discovery:
+        server-addr: 192.168.41.128:8848 #淇敼涓篘acos瀹為檯瀹夎鍦板潃
+      config:
+        server-addr: 192.168.41.128:8848
+        file-extension: yaml
+    sentinel:
+      transport:
+        dashboard: localhost:8090
+      http-method-specify: true
+    openfeign:
+      okhttp:
+        enabled: true
+  config:
+    import:
+      - optional:nacos:jdbc.yaml
+      - optional:nacos:log.yaml
+
+hm:
+  jwt:
+    location: classpath:hmall.jks
+    alias: hmall
+    password: hmall123
+    tokenTTL: 30m
+

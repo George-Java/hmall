@@ -1,0 +1,24 @@
+﻿server:
+  port: 9010
+spring:
+  application:
+    name: pay-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.41.128:8848 #淇敼涓篘acos瀹為檯瀹夎鍦板潃
+      config:
+        server-addr: 192.168.41.128:8848
+        file-extension: yaml
+    openfeign:
+      okhttp:
+        enabled: true
+  profiles:
+    active: local
+  config:
+    import:
+      - optional:nacos:jdbc.yaml
+      - optional:nacos:log.yaml
+
+
+

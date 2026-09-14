@@ -1,0 +1,12 @@
+﻿server:
+  port: 9007
+spring:
+  application:
+    name: cart-api
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.41.128:8848
+    openfeign:
+      okhttp:
+        enabled: true

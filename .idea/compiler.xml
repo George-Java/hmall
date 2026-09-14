@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cart-service" />
+        <module name="pay-service" />
+        <module name="trade-service" />
+        <module name="item-service" />
+        <module name="user-service" />
+        <module name="user-api" />
+        <module name="hm-gateway" />
+        <module name="hm-common" />
+        <module name="hm-service" />
+        <module name="cart-api" />
+        <module name="item-api" />
+        <module name="trade-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hm-service (1)" target="21" />
+      <module name="pay-api" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cart-api" options="-parameters" />
+      <module name="cart-service" options="-parameters" />
+      <module name="hm-cart" options="" />
+      <module name="hm-common" options="-parameters" />
+      <module name="hm-gateway" options="-parameters" />
+      <module name="hm-item" options="" />
+      <module name="hm-pay" options="" />
+      <module name="hm-service" options="-parameters" />
+      <module name="hm-service (1)" options="-parameters" />
+      <module name="hm-trade" options="" />
+      <module name="hm-user" options="" />
+      <module name="item-api" options="-parameters" />
+      <module name="item-service" options="-parameters" />
+      <module name="pay-api" options="-parameters" />
+      <module name="pay-service" options="-parameters" />
+      <module name="trade-api" options="-parameters" />
+      <module name="trade-service" options="-parameters" />
+      <module name="user-api" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
