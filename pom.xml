@@ -34,6 +34,10 @@
         <feign-okhttp.version>13.14</feign-okhttp.version>
         <knife4j.version>4.5.0</knife4j.version>
         <swagger.version>2.2.30</swagger.version>
+        <elasticsearch.version>7.12.1</elasticsearch.version>
+        <spring-boot-test.version>3.3.6</spring-boot-test.version>
+        <slf4j.version>2.0.19</slf4j.version>
+        <logback.version>1.6.3</logback.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -81,6 +85,7 @@
                 <artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
                 <version>${knife4j.version}</version>
             </dependency>
+
             <dependency>
                 <groupId>io.github.openfeign</groupId>
                 <artifactId>feign-okhttp</artifactId>
@@ -101,6 +106,28 @@
                 <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
                 <version>${spring-cloud-alibaba.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-high-level-client</artifactId>
+                <version>${elasticsearch.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -110,6 +137,13 @@
             <artifactId>lombok</artifactId>
             <version>${org.projectlombok.version}</version>
             <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-test</artifactId>
+            <version>${spring-boot-test.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>

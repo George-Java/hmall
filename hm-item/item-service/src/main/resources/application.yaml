@@ -6,7 +6,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.41.128:8848
+        server-addr: 192.168.68.128:8848
         username: nacos
         password: Zhc20050105@
     openfeign:
@@ -23,6 +23,37 @@ spring:
     password: ${hm.db.pw:123456}
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+#seata:
+#  registry:
+#    type: nacos
+#    nacos:
+#      server-addr: 192.168.68.128:8848
+#      namespace: ""
+#      group: DEFAULT_GROUP
+#      application: seata-server
+#      username: nacos
+#      password: Zhc20050105@
+#  tx-service-group: hmall
+#  service:
+#    vgroup-mapping:
+#      hmall: "default"
+#  data-source-proxy-mode: AT
+
+seata:
+  enabled: true
+  application-id: ${spring.application.name}  # 通常与Spring应用名保持一致
+  tx-service-group: hmall # 自定义事务分组名称,需与vgroup-mapping的key对应
+  service:
+    vgroup-mapping:
+      hmall: default # 将事务分组映射到默认集群
+    grouplist:
+      default: 192.168.68.128:8099   # 改成你 Seata Server 的实际 IP:端口
+  registry:
+    type: file
+  config:
+    type: file
+  data-source-proxy-mode: AT
+
 
 mybatis-plus:
   configuration:
@@ -35,7 +66,7 @@ mybatis-plus:
 
 logging:
   level:
-    com.george.item: debug
+    com.george.item: info
   pattern:
     dateformat: HH:mm:ss:SSS
   file:
