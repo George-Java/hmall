@@ -6,7 +6,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.41.128:8848 #淇敼涓篘acos瀹為檯瀹夎鍦板潃
+        server-addr: 192.168.68.128:8848 #淇敼涓篘acos瀹為檯瀹夎鍦板潃
         username: nacos
         password: Zhc20050105@
     openfeign:

@@ -7,7 +7,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.41.128:8848
+        server-addr: 192.168.68.128:8848
         username: nacos
         password: Zhc20050105@
     sentinel:
